@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss","base/variables.scss"],"names":[],"mappings":"AAEA,KACI,qBCHA,CDIA,UCHI,CDMR,EACI,iCAAA,CAAA,yBAAA","file":"style.min.css","sourcesContent":["@import \"base/variables\";\r\n\r\nbody{\r\n    background-color: $bg; \r\n    color: $color;\r\n}\r\n\r\na{\r\n    transition:all 320ms ease;\r\n}","$bg:black;\r\n$color: white;"]}

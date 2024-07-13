@@ -1,0 +1,10 @@
+@import "base/variables";
+
+body{
+    background-color: $bg; 
+    color: $color;
+}
+
+a{
+    transition:all 320ms ease;
+}
