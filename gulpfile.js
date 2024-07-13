@@ -44,7 +44,7 @@ task('browser-sync',function(){
             cert: "D:/Softwares/laragon/etc/ssl/laragon.crt"
         }
     });
-})
+});
 
 task('style',function(done){
     src(styleSrc)
@@ -105,4 +105,4 @@ task('watch', function() {
     watch(watchHtml,syncVar.stream()).on("change",reload);
 });
 
-task('serve', parallel('browser-sync','default','watch'))
+task('serve', parallel('browser-sync','default','watch'));
